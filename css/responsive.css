@@ -1,0 +1,86 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.logo {
+    margin-left: -46px;
+}
+ .blog-content h3 {
+    font-size: 18px;
+    line-height: 25px;
+}   
+  
+.banner-content span {
+padding: 44px 181px;
+}
+  .blog-content h5 {
+    font-size: 15px;
+    line-height: 29px;
+}
+  
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.main-menu ul li a {
+padding: 19px 14px;
+}  
+.logo {
+    margin-left: -112px;
+}
+.slider-content h3 {
+font-size: 35px;
+}   
+.thumnil h6 {
+top: 60px;
+}   
+.blog-content h3 {
+font-size: 18px;
+margin-bottom: 12px;
+line-height: 20px;
+}   
+.banner-thumnil h5 {
+font-size: 13px;
+}    
+.banner-content h6 {
+margin-left: -150px;
+}
+.banner-content p {
+margin-right: -120px;
+}    
+.banner-content span {
+padding: 45px 75px;
+}   
+.blog-content h5 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 22px;
+}    
+ .blog-content span {
+    padding: 0px 112px;
+    margin-top: -41px;
+    font-size: 13px;
+}   
+    
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
